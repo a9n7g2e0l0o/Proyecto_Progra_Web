@@ -1,0 +1,90 @@
+// $color: red; --> tambien numero px em rem 
+// $string: 'hhhhh';
+//$list: red,orenge,pato; (empiesa desde el 1-2-3...)
+//$string: none;
+//$boolean: true;
+
+/*
+ $map:(
+  primari: red;
+  secundari:green;
+  )
+
+  */
+
+// @import "varuables";  importa  un archivo
+
+// @mixin    esto en el archivo es cuando se repiten varias propiedades
+
+/* 
+                                // ancho por defecto
+@mixin 'nombreCualquiera'($fondo,$ancho:200px) {
+    background: $fondo;
+    color: red;
+    wigth:$ancho;
+    codigo que se repite
+}
+
+header{
+    @include 'nombreDelMixin'(orange,50px);   // include llama al mixin
+}
+
+body(o una clase){
+    @include '  '(white):
+    }
+
+    .caja{
+        width:15px;
+            height: 40px;
+            background: #1e272e;
+            transition: all 50ms ease;
+    }
+    .cajaDos{
+        //@extend .caja;  // ereda extend
+        color:red;
+    }
+
+*/
+
+
+
+
+.main-recomended__title{
+            width: 96%;
+            height: 50px;
+            margin: 30px auto;
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            div{
+                height: 100%;
+                margin: 0 5px;
+                display: flex;
+                align-items: center;
+                h2{
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 28px;
+                }
+            }
+            .recomended__verTodo{
+                height: 80%;
+                width: 130px;
+                border-radius: 5px;
+                background: #FDF8F8;
+                a{ 
+                    text-decoration: none;
+                    color: #b2bec3;
+                    span{
+                        font-size: 20px;
+                        font-weight: bold;
+                        margin-left: 18px;
+                        margin-right: 12px;
+                    }
+                    i{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }

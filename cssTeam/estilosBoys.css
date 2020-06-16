@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background: #fff;
+
+}
+
+/*menu vertical*/
+.menu-vertical {
+    padding: 25px;
+    position: fixed;
+    left: 0; 
+    top: 100px;
+    z-index: 2000; 
+}
+
+    .menu-vertical ul {
+        list-style: none;
+    }
+
+    .menu-vertical ul li img {
+        display: inline-block;
+        color:#fff;
+        background: #000;
+        padding: 13px 18px;
+        text-decoration: none;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease; 
+    }
+
+    .menu-vertical ul li .icon-casaca {background:#3b5998;} 
+    .menu-vertical ul li .icon-casacachompa {background: #00abf0;}
+    .menu-vertical ul li .icon-polo {background: #d95232;}
+    .menu-vertical ul li .icon-blusa {background: #ae181f;}
+    .menu-vertical ul li .icon-pantalon {background: #663c1a66;}
+    .menu-vertical ul li .icon-medias {background: #c25ab6;}
+
+    .menu-vertical ul li img:hover {
+        background: #000; 
+        padding: 10px 30px; 
+    }
+
+
+
+.menu{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 1;
+    background: #414141;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navegacion ul{
+    padding-left: 178px;
+    list-style: none;
+}
+.menu >li{
+    border-radius: 40px;
+    position: relative;
+    display: inline-block;
+}
+.menu >li>a{
+    display: block;
+    padding: 15px 45px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: yellow;
+    transition: all .4s;
+    transform: scale(1.5);
+}
+
+
+/*6 imagenes arriba*/
+#info{
+    text-align: center;
+    color: rgb(173, 171, 171);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info-ropa{
+    margin: 40px;
+}
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-ropa img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+
+/*color tamaño letra cada imagen*/
+.post p{
+    color: black;
+    font-size: 1.4em;
+    font-family: 'colibri';
+}
+/*niñacasacaacolchado*/
+.niña1{
+    padding-left: 200px;
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.acolchadoniña{
+    margin: 10px;
+    position: relative;
+    height:275px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+
+}
+/*resplandor*/
+.niña1 .acolchadoniña img{
+    padding: 5px 5px;
+    box-shadow: 0px 0px 30px #663c1a66;
+}
+
+
+/*chompaniña*/
+.niña2{
+    padding-left: 200px;
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chompaniña{
+    margin: 15px;
+    position: relative;
+    height:275px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .75)
+}
+/*resplandor*/
+.niña2 .chompaniña img{
+    padding: 5px 5px;
+    box-shadow: 0px 0px 30px #663c1a66;
+}
+
+/*polosniña*/
+.niña3{
+    padding-left: 200px;
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.poloniña{
+    margin: 15px;
+    position: relative;
+    height:275px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .75)
+}
+/*resplandor*/
+.niña3 .poloniña img{
+    padding: 5px 5px;
+    box-shadow: 0px 0px 30px #663c1a66;
+}
+/*blusasniña*/
+.niña4{
+    padding-left: 200px;
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blusaniña{
+    margin: 15px;
+    position: relative;
+    height:275px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .75)
+}
+/*resplandor*/
+.niña4 .blusaniña img{
+    padding: 5px 5px;
+    box-shadow: 0px 0px 30px #663c1a66;
+}
+/*pantalonesniña*/
+.niña5{
+    padding-left: 200px;
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pantalonesniña{
+    margin: 15px;
+    position: relative;
+    height:275px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .75)
+}
+/*resplandor*/
+.niña5 .pantalonesniña img{
+    padding: 5px 5px;
+    box-shadow: 0px 0px 30px #663c1a66;
+}
+/*mediasniña*/
+.niña6{
+    padding-left: 200px;
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mediasniña{
+    margin: 15px;
+    position: relative;
+    height:275px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .75)
+}
+/*resplandor*/
+.niña6 .mediasniña img{
+    padding: 5px 5px;
+    box-shadow: 0px 0px 30px #663c1a66;
+}
+
+
+/*efectoimagen*/
+  .post{
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: -1;
+}
+.niña1 .acolchadoniña1{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.niña1 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.niña1:hover img,
+.niña1.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+/*niña2 efectoimagen*/
+
+.niña2 .chompaniña1{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.niña2 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.niña2:hover img,
+.niña2.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+/*niña3 efectoimagen*/
+.niña3 .acolchadoniña1{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.niña3 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.niña3:hover img,
+.niña3.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+
+/*niña4 efectoimagen*/
+.niña4 .acolchadoniña1{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.niña4 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.niña4:hover img,
+.niña4.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+/*niña5 efectoimagen*/
+.niña5 .acolchadoniña1{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.niña5 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.niña5:hover img,
+.niña5.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+/*niña6 efectoimagen*/
+.niña6 .mediasniña1{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.niña6 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.niña6:hover img,
+.niña6.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+
+/*comunicarse*/
+
+
+footer{
+  background: #414141;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+.comunicarse{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid#ccc;
+
+}
+.content-foo{
+  text-align: center;
+}
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #af20d3;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.content-foo p{
+  color: #ccc;
+}
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}
